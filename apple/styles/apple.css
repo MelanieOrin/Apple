@@ -1,0 +1,445 @@
+    .page {
+        margin: 0;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .font {
+        font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .black {
+        color: black;
+    }
+
+    .blue{
+        color: #0070C9;
+    }
+
+    .header {
+        height: 44px;
+        background-color: rgba(0,0,0,0.8);
+        text-align: center;
+        width: 100%;
+        top: 0;
+        position: sticky;
+        display: flex;
+        z-index: 1;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        .applenav{
+            margin-left: 140px;
+        }
+        .bagnav{
+            margin-right: 140px;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .applenav{
+            margin-left: 15px;
+        }
+        .bagnav{
+            margin-right: 15px;
+        }
+    }
+
+    .headeroption {
+        font-size: 13.5px;
+        font-weight: 345;
+        letter-spacing: .05em;
+        padding: 10px;
+    }
+
+    .headingimg {
+        height: 44px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .headeroption:hover {
+        color: #ccc;
+    }
+
+    .appleSize{
+        font-size: 20px;
+    }
+
+    .searchSize{
+        font-size: 16px;
+    }
+
+    .productName {
+        font-size: 55px;
+        font-weight: 450;
+    }
+
+    .APnamespace {
+        padding-top: 80px; 
+    }
+
+    .iP11namespace {
+        padding-top:40px;
+    }
+
+    .productDesc {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .airpods {
+        background-color:black;
+        height: 800px;
+        font-size: 21px;
+        margin-bottom: 12px;
+        text-align: center;
+        background-image: url('../images/airpods_pro.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 75%; 
+    }
+
+    .iphone11pro {
+        background-color: black;
+        height: 575px;
+        margin-bottom: 12px;
+        background-image: url('../images/iphone-11-pro.jpg');
+        background-size: 85%;
+        background-repeat: no-repeat;
+        background-position: 50% 60%; 
+        text-align: center;
+    }
+
+    .ip11gray {
+        color: gray;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .iphone11 {
+        height: 575px;
+        text-align: center;
+        background-image: url('../images/iphone-11.jpg');
+        background-position: 50% 90%; 
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-color: #F9F9F9;
+    }
+
+    .biginfo {
+        margin-right: 15px;
+        font-size: 20px;
+        font-weight: 350;
+    }
+
+    .smallinfo {
+        margin-right: 15px;
+        font-size: 17px;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        .privacy{
+            background-size: 125%;
+        }
+        .appletv{
+            background-size: 200%;
+        }
+        .applearcade{
+            background-size: 110%;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .privacy{
+            background-size: 164%;
+        }
+        .appletv{
+            background-size: 262%;
+        }
+        .applearcade{
+            background-size: 129%;
+        }
+    }
+
+    .privwatch {
+        margin: 12px;
+        height: 575px;
+        display: inline-block;
+        width: calc(100% - 24px);
+    }
+
+    .privacy {
+        height: 575px;
+        width: calc(50% - 6px);
+        float: left;
+        background-image: url('../images/privacy.jpg');
+        background-position: center; 
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-right: 12px;
+    }
+
+    .privtext {
+        font-size:35px;
+        text-align: center;
+        font-weight: 450;
+        margin-top: 250px;
+    }
+
+    .watch {
+        height: 575px;
+        width: calc(50% - 6px);
+        float: right;
+        background-size: 150%;
+        background-position: center bottom; 
+        background-image: url('../images/watch-series-5.jpg');
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        background-color: #F9F9F9;
+    }
+
+    .prodimgsmall{
+        height: 35px;
+    }
+
+    .prodimgbig {
+        height: 60px;
+    }
+
+    .prodLogo{
+        position: absolute; 
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .topspace {
+        margin-top: 50px;
+    }
+
+    .topspaceless {
+        margin-top: 30px;
+    }
+
+    .sz {
+        font-size: 19px;
+        margin: 2px;
+    }
+
+    .smsz{
+        font-size: 17px;
+        margin: 2px;
+    }
+
+    .tvcard {
+        margin-left: 12px;
+        margin-right: 12px;
+        height: 575px;
+        display: inline-block;
+        width: calc(100% - 24px);
+    }
+
+    .appletv{
+        height: 575px;
+        width: calc(50% - 6px);
+        float: left;
+        background-image: url('../images/apple-tv-plus.jpg');
+        background-position: center; 
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-right: 12px;
+        position: relative;
+    }
+
+    .applecard {
+        height: 575px;
+        width: calc(50% - 6px);
+        float: right;
+        background-size: 225%;
+        background-position: center ; 
+        background-image: url('../images/apple-card.jpg');
+        background-position: 50% 55%; 
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        background-color: #F9F9F9;
+    }
+
+    .arcipad {
+        margin: 12px;
+        height: 575px;
+        display: inline-block;
+        width: calc(100% - 24px);
+    }
+
+    .applearcade {
+        height: 575px;
+        width: calc(50% - 6px);
+        float: left;
+        background-image: url('../images/apple-arcade.jpg');
+        background-position: center; 
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-right: 12px;
+        position: relative;
+    }
+
+    .ipad {
+        height: 575px;
+        width: calc(50% - 6px);
+        float: right;
+        background-size: 115%;
+        background-position: center bottom; 
+        background-image: url('../images/ipad.jpg');
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        background-color: #F9F9F9;
+    }
+
+    .footer {
+        background-color: #f5f5f7;
+    }
+
+    .tinyinfo{
+        text-size-adjust: none;
+    }
+
+    .listcontent {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .allists {
+        height:420px;
+        border-top: 1px solid #86868b;
+        position: relative;
+    }
+
+    .firstgrp {
+        text-align: left; 
+        position: absolute;
+        width: 20%;
+        display: inline-block;
+    }
+
+    .secondgrp {
+        text-align: left;
+        position: absolute;
+        width: 20%;
+        display: inline-block;
+        left: 20%;
+    }
+
+    .thirdgrp {
+        text-align: left; 
+        position: absolute;
+        width: 20%;
+        display: inline-block;
+        left: 40%;
+    }
+
+    .fourthgrp {
+        text-align: left; 
+        position: absolute;
+        width: 20%;
+        display: inline-block;
+        left: 60%;
+    }
+
+    .fifthgrp {
+        text-align: left; 
+        position: absolute;
+        width: 20%;
+        display: inline-block;
+        left: 80%;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        .indent{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .indent{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    .lgray {
+        color: #86868b;
+    }
+
+    .midgray {
+        color: #515154;
+    }
+
+    .darkgray {
+        color: #1D1D1F;
+        font-weight: bold;
+    }
+
+    .US {
+        display: inline-block;
+    }
+
+    .USimg {
+        width: 16px;
+        vertical-align: middle;
+    }
+
+    .rightAlign {
+        position: absolute;
+        right: 0px;
+    }
+
+    .copyright {
+        margin-right:20px;
+    }
+
+    .tradein{
+        padding-top: 15px;
+        margin-top: 0px;
+    }
+
+    .lastrow{
+        border-top: 1px solid #86868b;
+        position: relative;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+
+    .horizln {
+        border-right: 1px solid #86868b;
+        padding-right: 5px;
+    }
+
+    .shop {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .tinyfontspace {
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    .tinyfont {
+        font-size: 12px;
+    }
+
+    .underline:hover {
+        text-decoration: underline;
+    }
